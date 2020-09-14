@@ -1,0 +1,11 @@
+[package]
+name = "take_ref"
+version = "0.1.0"
+authors = ["Mitchell Keith Bloch <bazald@gmail.com>"]
+description = "The TakeRef trait for Rust enables more efficient argument passing when cloning may be expensive and needed only rarely."
+readme = "README.md"
+edition = "2018"
+repository = "https://github.com/bazald/take_ref/"
+license = "MPL-2.0"
+
+[dependencies]
