@@ -1,11 +1,17 @@
 [package]
 name = "take_ref"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Mitchell Keith Bloch <bazald@gmail.com>"]
-description = "The TakeRef trait for Rust enables more efficient argument passing when cloning may be expensive and needed only rarely."
+description = "TakeRef, TakeSlice, and TakeString traits enable treating references/slices and values interchangeably. They can be treated as references/slices. And you can take ownership of the value within with a clone performed only as needed."
 readme = "README.md"
 edition = "2018"
 repository = "https://github.com/bazald/take_ref/"
 license = "MPL-2.0"
+keywords = ["trait", "performance", "pattern", "argument", "generic"]
+categories = ["memory-management", "rust-patterns"]
+
+[features]
+default = ["use_std"]
+use_std = []
 
 [dependencies]
